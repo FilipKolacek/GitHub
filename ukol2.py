@@ -1,5 +1,5 @@
-cislo1 = (input("Zadejte desetinné číslo: "))
-cislo2 = (input("Zadejte desetinné číslo: "))
+cislo1 = float(input("Zadejte desetinné číslo: "))
+cislo2 = float(input("Zadejte desetinné číslo: "))
 
 soucet = cislo1+cislo2
 rozdil = cislo1-cislo2
