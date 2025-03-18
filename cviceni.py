@@ -23,3 +23,24 @@ else:
 #git příkaz 4 = git clone 
 #git příkaz 5 = cd 
 #git příkaz 6 = git pull
+
+rok = 2025
+text = "Veselé velikonoce"
+cislo = 2519846122
+
+#fstring
+print (f"Ahoj, {text} {rok}")
+
+#oddělovač tisíců
+print (f"{cislo:,}")
+
+#vypsat počet písmen
+print (f"{text:.6}")
+
+#desetinná čísla
+print (f"{cislo:.3f}")
+
+#převody jednotek
+hodnota = 155
+print(f"{hodnota:b}")
+print(f"{hodnota:x}")
