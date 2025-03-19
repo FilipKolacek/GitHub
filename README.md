@@ -11,5 +11,8 @@ Zde je kód úkolu
 Uživatele se to zeptá na jméno a věk a poté to vypíše
 ### Kód
 ```python
+jmeno = input("Jak se jmenujete? ")
+vek = int(input("kolik je vám let? "))
 
+print(f"Ahoj, jmenuji se {jmeno} a je mi {vek} let.")
 ```
